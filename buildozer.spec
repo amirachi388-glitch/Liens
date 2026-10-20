@@ -1,0 +1,19 @@
+[app]
+title = Video Studio
+package.name = videostudio
+package.domain = org.videostudio
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas,json,sqlite3
+version = 1.0.0
+requirements = python3,flask,yt-dlp,requests,urllib3,certifi,ffmpeg,android
+orientation = portrait
+fullscreen = 0
+android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE, MANAGE_EXTERNAL_STORAGE
+android.api = 30
+android.minapi = 21
+android.ndk_api = 21
+android.archs = arm64-v8a
+android.allow_backup = True
+android.accept_sdk_license = True
+p4a.branch = develop
+android.no_zlib_check = True
